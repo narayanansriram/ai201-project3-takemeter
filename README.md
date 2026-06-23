@@ -1,5 +1,7 @@
 # TakeMeter
 
+**Demo:** [Loom walkthrough](https://www.loom.com/share/d231ab583f3648f89d92100414a8b309)
+
 A fine-tuned text classifier for r/TrueFilm Reddit comments. Given a comment, the system assigns one of three labels: `analysis`, `hot_take`, or `reaction`. The notebook fine-tunes DistilBERT on annotated examples and compares it to a Groq zero-shot baseline.
 
 **Stretch goals completed:** Error Pattern Analysis · Confidence Calibration
