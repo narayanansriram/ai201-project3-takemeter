@@ -1,0 +1,4 @@
+# These are installed automatically in the notebook via !pip install -q
+# Listed here for reference only — run the notebook in Google Colab.
+groq
+python-dotenv

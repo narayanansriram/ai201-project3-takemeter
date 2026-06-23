@@ -216,3 +216,15 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project instructions — local reference only, not for publishing
+project_instructions.txt
+
+# Raw data files — local only
+*.ods
+
+# Local reference files — not for publishing
+demo_script.md
+
+# Intermediate files
+intermediate results/

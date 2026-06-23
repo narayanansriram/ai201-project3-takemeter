@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:claude.ai)",
+      "Read(//Users/sriramnarayanan/Desktop/CodePath/AI201_Su2026_Sriram/Week 3/homework/**)",
+      "Bash(python3 -c ' *)",
+      "Bash(pip3 install *)",
+      "Bash(find \"/Users/sriramnarayanan/Desktop/CodePath/AI201_Su2026_Sriram/Week 3\" -type f | grep -v \".git\" | grep -v \".DS_Store\")",
+      "Bash(find \"/Users/sriramnarayanan/Desktop/CodePath/AI201_Su2026_Sriram\" -maxdepth 4 -type f \\\\\\( -name \"*.md\" -o -name \"*.pdf\" -o -name \"*.txt\" \\\\\\) | grep -v \".git\" | grep -v \".venv\" | grep -v \"__pycache__\" | grep -v \"dist-info\")",
+      "Bash(python3)",
+      "Bash(gh repo *)",
+      "Bash(gh api *)",
+      "Bash(python3 -c \"import json,sys; t=json.load\\(sys.stdin\\); [print\\(f['path']\\) for f in t['tree'] if f['type']=='blob']\")",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(python3 -)",
+      "Bash(cp \"/Users/sriramnarayanan/Downloads/ai201_project3_takemeter.ipynb\" \"/Users/sriramnarayanan/Desktop/CodePath/AI201_Su2026_Sriram/Week 3/homework/ai201-project3-takemeter/ai201_project3_takemeter_starter_clean.ipynb\")"
+    ]
+  }
+}
